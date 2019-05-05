@@ -1,0 +1,14 @@
+.bg-blue {
+  background-color: rgba(88, 144, 255, .15);
+  border-bottom: 1px solid rgba(88, 144, 255, .3);
+}
+textarea {
+  width: 500px;
+  font-size: 20px;
+  overflow: hidden;
+  resize: none;
+	min-height: 100px;
+	padding: 5px;
+	overflow: hidden;
+	box-sizing: border-box;
+}

@@ -1,0 +1,19 @@
+<div mwlTextInputHighlightContainer>
+  <textarea
+    mwlTextInputElement
+    rows="6"
+    class="form-control"
+    [(ngModel)]="text"
+    #textarea
+    (input)="addTags()">
+  </textarea>
+  <mwl-text-input-highlight
+    [tags]="tags"
+    [tagCssClass]="'bg-blue'"
+    [textInputElement]="textarea"
+    (tagMouseEnter)="addClass($event.target)"
+    (tagMouseLeave)="removeClass($event.target)"
+    >
+  </mwl-text-input-highlight>
+</div>
+<pre>{{ hashtag }}</pre>
