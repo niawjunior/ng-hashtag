@@ -31,11 +31,4 @@ export class AppComponent implements OnInit {
       });
     }
   }
-
-  addClass(elm: HTMLElement) {
-      elm.classList.add('bg-blue');
-    }
-  removeClass(elm: HTMLElement) {
-    elm.classList.remove('bg-blue');
-  }
 }
