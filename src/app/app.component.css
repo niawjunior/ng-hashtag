@@ -1,25 +1,27 @@
-
 .hashtags .highlighter{
   white-space: pre-wrap;
 	color:transparent;
 	overflow: hidden;
 	position: absolute;
 	padding-left:7px;
-  padding-top:5px;
+	padding-top:5px;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size:20x;
+	font-size:14px;
 	line-height:20px;
 }
 
 .hashtags .theSelector{
-  background-color: transparent;
+	background-color: transparent;
 	position: relative;
 	direction: ltr;
-	font-size:20px;
+	font-size:14px;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	resize:none !important;
 	-webkit-transition: height 0.2s;
 	border: 1px solid #cccccc;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
 	padding: 4px 6px;
 	vertical-align:middle;
 	min-height:48px !important;
@@ -27,9 +29,10 @@
 }
 
 .hashtags .hashtag{
-  background-color: rgba(88, 144, 255, .15);
-  border-bottom: 1px solid rgba(88, 144, 255, .3);
-	font-size:20px;
+	background: -webkit-linear-gradient(#dce6f8, #bdcff1);
+	border-radius: 2px;
+	box-shadow: 0 0 0 1px #a3bcea;
+	font-size:14px;
 	white-space: pre-wrap;
 	word-break: break-word;
 	line-height:20px;
