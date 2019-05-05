@@ -23,10 +23,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "node_modules/angular-text-input-highlight/text-input-highlight.css"
+              "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "src/assets/hashtags.js",
+              "src/assets/autosize.js"
+            ]
           },
           "configurations": {
             "production": {

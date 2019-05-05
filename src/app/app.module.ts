@@ -2,7 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule} from '@angular/forms';
 import { AppComponent } from './app.component';
-import { TextInputHighlightModule } from 'angular-text-input-highlight';
 
 
 @NgModule({
@@ -11,8 +10,7 @@ import { TextInputHighlightModule } from 'angular-text-input-highlight';
   ],
   imports: [
     BrowserModule,
-    FormsModule,
-    TextInputHighlightModule
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
